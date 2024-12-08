@@ -1,0 +1,11 @@
+// src/aws-exports.js
+
+const awsconfig = {
+  Auth: {
+    region: 'us-east-2',              // Replace with your AWS region
+    userPoolId: 'us-east-2_sGd7hmZRw', // Replace with your Cognito User Pool ID
+    userPoolWebClientId: 'sjuikbu9ieibjv54mmpr5mrdl', // Replace with your Cognito App Client ID
+  }
+};
+
+export default awsconfig;
